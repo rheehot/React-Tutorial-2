@@ -29,6 +29,13 @@ app.get('/api/customers', (req,res) => {
             'birthday' : '910914',
             'gender' : '남자',
             'job' : '공무원'
+          },{
+            'id' : 4,
+            'image':'https://placeimg.com/64/64/4', //placeimg 는 랜덤으로 이미지를 보여주는 사이트이고 64/64 는 사이즈 이다.
+            'name' : '김혜미',
+            'birthday' : '190830',
+            'gender' : '여자',
+            'job' : '백수'
           }
     ])
 })
