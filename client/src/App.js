@@ -40,7 +40,6 @@ class App extends Component {
     this.callApi()
       .then(res => this.setState({customers: res}))
       .catch(err => console.log(err));
-      // callApi를 지우면 호출되는 것이 없기 때문에 로딩창이 보여지게 된다. 따라서 확인을 할 수 있게 됨
   }
 
 
